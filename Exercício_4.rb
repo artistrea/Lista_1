@@ -1,4 +1,4 @@
-
+#Desenhando o triângulo com loop
 def triangulo(n)
     return (false)if n<0
     linha = 1
@@ -11,7 +11,7 @@ def triangulo(n)
         linha -= 1
     end
 end
-
+#Desenhando o triângulo com recursão
 def triangulo_recursão(n,m)
     return (0)if m == 0
     puts "*"*(n-m)
