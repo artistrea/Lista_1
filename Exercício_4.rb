@@ -21,6 +21,6 @@ end
 
 
 num = gets.to_i
-
+        #Trocar quem está no comentário se deseja testar a outra:
 #triangulo_recursão num,num-1
 triangulo num
