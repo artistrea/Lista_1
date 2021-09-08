@@ -1,6 +1,7 @@
 #Função para achar número primo.
-#eh_primo() descobre todos os primos entre 1 e n, aumentando os cálculos.
-#Se quer descobrir apenas se n é primo, por eficiência, usar eh_primo2()
+#eh_primo() descobre todos os primos entre primo.last e n e os coloca em um array global, inicialmente aumentando os cálculos, mas possivelmente facilitando-os 
+#caso tenhamos uma base de dados maior ou com repetido uso.
+#Para esse programa pequeno, por eficiência, usamos eh_primo2()
 
 $primos = [1,2,3]
 
