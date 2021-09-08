@@ -13,9 +13,12 @@ def triangulo(n)
 end
 #Desenhando o triângulo com recursão
 def triangulo_recursão(n,m)
-    return (0)if m == 0
+    if m==0
+        puts "*"*(n-m)
+        return 0
+    end
     puts "*"*(n-m)
-    triangulo2(n,m-1)
+    triangulo_recursão(n,m-1)
     puts "*"*(n-m)
 end
 
