@@ -20,7 +20,7 @@ def eh_primo(n)
                     end
                 end
             end
-            if divisores <= 1
+            if divisores < 1
                 primos.append(talvez)
             end
         end
