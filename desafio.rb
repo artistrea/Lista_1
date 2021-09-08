@@ -1,4 +1,4 @@
-#Criamos primeiro a matriz transposta de acordo com seu tamanho. Declarei   Array.new(j) { Array.new(i) {[]} }    
+#Na função, criamos primeiro a matriz transposta de acordo com seu tamanho. Declarei   Array.new(j) { Array.new(i) {[]} }    
 #dessa maneira para que cada elemento da matriz transposta tenha id único e possa ser manipulado individualmente.
 
 def transposta(matriz)
