@@ -1,4 +1,5 @@
 def zeros(a,b,c)
+    return (-1*c/b) if a==0
     delta = (b**2) - (4*a*c)
     if delta < 0
         return false
